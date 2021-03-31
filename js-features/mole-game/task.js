@@ -1,5 +1,6 @@
  
 function getHole(index) {
+    const holeGame = document.getElementByClassName('hole-game');
     const itemLists = document.getElementById(`hole${index}`);
     for (let i = 0; i < itemLists.length; i++) {
       itemLists[i].onclick = function () {
